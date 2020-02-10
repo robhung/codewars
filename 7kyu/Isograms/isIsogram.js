@@ -2,8 +2,7 @@ const isIsogram = string => {
   if (typeof string === 'string') {
     const lowercase = string.toLowerCase();
     const set = new Set(lowercase);
-    const convertedString = [...set].join('');
-    const hasNoRepeatingLetters = lowercase === convertedString;
+    const hasNoRepeatingLetters = lowercase.length === set.size;
 
     return hasNoRepeatingLetters;
   }
