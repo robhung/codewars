@@ -1,7 +1,7 @@
 {
   "name": "codewars",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of completed coding exercises from Codewars",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll"
@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/robhung/codewars.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Robert Hung",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/robhung/codewars/issues"
   },
   "homepage": "https://github.com/robhung/codewars#readme",
   "devDependencies": {
-    "jest": "^25.4.0"
+    "jest": "^25.5.4"
   }
 }
